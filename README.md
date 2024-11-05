@@ -41,17 +41,18 @@ To set up your python environment to run the code in this repository, follow the
 3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.  
     ```bash
     git clone https://github.com/Teuling/Reacher.git
-    cd dReacher
+    cd Reacher
+    cd python
     pip install .
+    if torch 0.4.0 is not found then 'pip install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-win_amd64.whl' and retry
     ```
-4. Unpack Reacher_Windows_x86_64.7z
 
-5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.    
+4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.    
     ```bash
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
     ```
 
-6. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
+5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
 
 # Running the code
 
