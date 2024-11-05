@@ -44,13 +44,14 @@ To set up your python environment to run the code in this repository, follow the
     cd dReacher
     pip install .
     ```
+4. Unpack Reacher_Windows_x86_64.7z
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.    
+5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.    
     ```bash
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
     ```
 
-5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
+6. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
 
 # Running the code
 
